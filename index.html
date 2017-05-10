@@ -2,239 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Star Wars Films</title>
+    <title>FlowState-V</title>
 
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./bootstrap-4.0.0-alpha.6/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="./bootstrap-4.0.0-alpha.6/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="./bootstrap-4.0.0-alpha.6/css/bootstrap.css">
-    <script type="text/javascript" src="./bootstrap-4.0.0-alpha.6/js/bootstrap.js"></script>
     <script type="text/javascript" src="./scripts/jquery-3.2.1.min.js"></script>
   </head>
   <body>
-    <header class="container-fluid">
-      <div class="row">
-        <img src="./images/Star-Wars-logo.jpeg" alt="Star Wars Logo" class="img-responsive" style="max-width: 100%">
-      </div>
-    </header>
 
-    <div id="white-neg"></div>
-
-    <div id="intro" class="container-fluid star-background">
-      <p class="title">STAR WARS</p>
+    <div>
+      <p class="title">FlowState-v</p>
       <div class="row star-text">
         <div class="col-md-8">
-          <img src="./images/episodes/episode-pics/star-wars.png" alt="Star Wars" width="65%">
+
         </div>
         <div class="col-md-4">
           <div class="output-box">
-            <p id="p-output-box-zero"></p>
-            <p id="p-output-box-zero-ep1"></p>
-            <p id="p-output-box-zero-ep2"></p>
-            <p id="p-output-box-zero-ep3"></p>
-            <p id="p-output-box-zero-ep4"></p>
-            <p id="p-output-box-zero-ep5"></p>
-            <p id="p-output-box-zero-ep6"></p>
-            <p id="p-output-box-zero-ep7"></p>
-          </div>
-          <!-- <select>
-           <option value="test">Story</option>
-           <option value="saab">Planets</option>
-           <option value="opel">Vehicles</option>
-           <option value="audi">Species</option>
-          </select> -->
-        </div>
-      </div>
-    </div>
-
-    <div id="white-zero"></div>
-
-    <!-- <div id="episode_01"></div> -->
-    <div id="episode_01" class="container-fluid star-background">
-      <p class="title">EPISODE I: THE PHANTOM MENACE</p>
-      <div class="row star-text">
-        <div class="col-md-8">
-          <img src="./images/episodes/episode-pics/episode01-the-phantom-menace.png" alt="The Phantom Menace" width="80%">
-        </div>
-        <div class="col-md-4">
-          <div class="output-box">
-            <p id="p-output-box-one">IN A GALAXY FAR FAR AWAY...</p>
-          </div>
-          <button type="button" id="eps1-btn-story">Story</button>
-          <button type="button" id="eps1-btn-date">Release Date</button>
-          <!-- <select id="list">
-            <option value="1">Story</option>
-            <option value="2">Release Date</option>
-          </select> -->
-          <!-- <select>
-           <option value="test">Story</option>
-           <option value="saab">PlanetsSaab</option>
-           <option value="opel">Vehicles</option>
-           <option value="audi">Species</option>
-          </select> -->
-        </div>
-      </div>
-    </div>
-
-    <div id="white-one"></div>
-
-    <!-- <div id="episode_02"></div> -->
-    <div id="episode_02" class="container-fluid star-background">
-      <p class="title">EPISODE II: ATTACK OF THE CLONES</p>
-      <div class="row star-text">
-        <div class="col-md-8">
-          <img src="./images/episodes/episode-pics/0-episode2-attack-of-the-clones.png" alt="Attack of the Clones" width="45%">
-        </div>
-        <div class="col-md-4">
-          <div class="output-box">
-            <p id="p-output-box-two">IN A GALAXY FAR FAR AWAY...</p>
-          </div>
-          <button type="button" id="eps2-btn-story">Story</button>
-          <button type="button" id="eps2-btn-date">Release Date</button>
-          <!-- <select id="sw-list">
-           <option value="1">Story</option>
-           <option value="2">Release Date</option>
-          </select> -->
-        </div>
-      </div>
-    </div>
-
-    <div id="white-two"></div>
-
-    <!-- <div id="episode_03"></div> -->
-    <div id="episode_03" class="container-fluid star-background">
-      <p class="title">EPISODE III: REVENGE OF THE SITH</p>
-      <div class="row star-text">
-        <div class="col-md-8">
-          <img src="./images/episodes/episode-pics/0-episode3-revenge-of-the-sith.png" alt="">
-        </div>
-        <div class="col-md-4">
-          <div class="output-box">
-            <p id="p-output-box-three">IN A GALAXY FAR FAR AWAY...</p>
-          </div>
-          <button type="button" id="eps3-btn-story">Story</button>
-          <button type="button" id="eps3-btn-date">Release Date</button>
-          <!-- <select>
-           <option value="test">Story</option>
-           <option value="saab">PlanetsSaab</option>
-           <option value="opel">Vehicles</option>
-           <option value="audi">Species</option>
-          </select> -->
-        </div>
-      </div>
-    </div>
-
-    <div id="white-three"></div>
-
-    <!-- <div id="episode_04"></div> -->
-    <div id="episode_04" class="container-fluid star-background">
-      <p class="title">EPISODE IV: A NEW HOPE</p>
-      <div class="row star-text">
-        <div class="col-md-8">
-          <img src="./images/episodes/episode-pics/0-episode4-a-new-hope.png" alt="A New Hope" width="50%">
-        </div>
-        <div class="col-md-4">
-          <div class="output-box">
-            <p id="p-output-box-four">IN A GALAXY FAR FAR AWAY...</p>
-          </div>
-          <button type="button" id="eps4-btn-story">Story</button>
-          <button type="button" id="eps4-btn-date">Release Date</button>
-          <!-- <select>
-           <option value="test">Story</option>
-           <option value="saab">PlanetsSaab</option>
-           <option value="opel">Vehicles</option>
-           <option value="audi">Species</option>
-          </select> -->
-        </div>
-      </div>
-    </div>
-
-    <div id="white-four"></div>
-
-    <!-- <div id="episode_05"></div> -->
-    <div id="episode_05" class="container-fluid star-background">
-      <p class="title">EPISODE V: THE EMPIRE STRIKES BACK</p>
-      <div class="row star-text">
-        <div class="col-md-8">
-          <img src="./images/episodes/episode-pics/0-episode5-the-empire-strikes-back.png" alt="The Empire Strikes Back" width="45%">
-        </div>
-        <div class="col-md-4">
-          <div class="output-box">
-            <p id="p-output-box-five">IN A GALAXY FAR FAR AWAY...</p>
-          </div>
-          <button type="button" id="eps5-btn-story">Story</button>
-          <button type="button" id="eps5-btn-date">Release Date</button>
-          <!-- <select>
-           <option value="test">Story</option>
-           <option value="saab">PlanetsSaab</option>
-           <option value="opel">Vehicles</option>
-           <option value="audi">Species</option>
-          </select> -->
-        </div>
-      </div>
-    </div>
-
-    <div id="white-five"></div>
-
-    <!-- <div id="episode_06"></div> -->
-    <div id="episode_06" class="container-fluid star-background">
-      <p class="title">EPISODE VI: RETURN OF THE JEDI</p>
-      <div class="row star-text">
-        <div class="col-md-8">
-          <img src="./images/episodes/episode-pics/0-episode6-return-of-the-jedi.png" alt="Return of the Jedi" width="70%">
-        </div>
-        <div class="col-md-4">
-          <div class="output-box">
-            <p id="p-output-box-six">IN A GALAXY FAR FAR AWAY...</p>
+            <p id="p-output-box-six">Flow Data</p>
           </div>
           <button type="button" id="eps6-btn-story">Story</button>
           <button type="button" id="eps6-btn-date">Release Date</button>
-          <!-- <select>
-           <option value="test">Story</option>
-           <option value="saab">PlanetsSaab</option>
-           <option value="opel">Vehicles</option>
-           <option value="audi">Species</option>
-          </select> -->
+          <label>Site</label>
+            <select>
+              <option value="site2">Site 1</option>
+              <option value="site2">Site 2</option>
+            </select>
+          <label>Time</label>
+            <select>
+              <option value="test">Today</option>
+              <option value="saab">Yesterday</option>
+              <option value="opel">Three Days</option>
+              <option value="audi">Week</option>
+            </select>
         </div>
       </div>
     </div>
 
-    <div id="white-six"></div>
 
-    <!-- <div id="episode_07"></div> -->
-    <div id="episode_07" class="container-fluid star-background">
-      <p class="title">EPISODE VII: THE FORCE AWAKENS</p>
-      <div class="row star-text">
-        <div class="col-md-8">
-          <img src="./images/episodes/episode-pics/0-episode7-the-force-awakens.png" alt="The Force Awakens">
-        </div>
-        <div class="col-md-4">
-          <div class="output-box">
-            <p id="p-output-box-seven">IN A GALAXY FAR FAR AWAY...</p>
-          </div>
-          <button type="button" id="eps7-btn-story">Story</button>
-          <button type="button" id="eps7-btn-date">Release Date</button>
-          <!-- <select>
-           <option value="test">Story</option>
-           <option value="saab">PlanetsSaab</option>
-           <option value="opel">Vehicles</option>
-           <option value="audi">Species</option>
-          </select> -->
-        </div>
-      </div>
-    </div>
-
-    <div id="white-seven"></div>
 
     <div id="footer" class="container-fluid">
-      <div class="row">
-        <img src="./images/footer-thin.png" alt="Footer Stars Space" class="img-responsive" style="max-width: 100%">
+      <div class="row"><p>Test</p>
       </div>
     </div>
 
-    <script type="text/javascript" src="./scripts/films.js"></script>
+    <script type="text/javascript" src="./scripts/data.js"></script>
   </body>
 </html>
