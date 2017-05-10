@@ -8,7 +8,18 @@ window.onload = function Maxicom () {
   }).done(function(data) {
     console.log('The returned object is:', data)
   })
+  // let targetedData = {
+  //   dataArrays:data.data.flow[0].report_data,
+  //   flow: data.data.flow,
+  //   data: data,
+  //   reportId: data.data.flow[0].report_data[0].report_id,
+  //   timeStamp: data.data.flow[0].report_data[0].timestamp,
+  //   value: data.data.flow[0].report_data[0].value
+  // }
 }
+
+
+
 
 // if ( flowIs === 'flow/') {
 //   const results = data.results;
