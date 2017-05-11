@@ -1,6 +1,7 @@
 window.onload = function Maxicom () {
 
   // const flowIs = 'flow/'
+  // const url = `http://ckjacobson.com/maxicom/sites.json`;
   const url = `http://ckjacobson.com/maxicom/reports/flow/1.json`;
 
   $.ajax({
@@ -18,6 +19,19 @@ window.onload = function Maxicom () {
   // }
 }
 
+/*================================
+componentDidMount () {
+    axios.get(`http://ckjacobson.com/maxicom/sites.json`)
+    .then(response => {
+      console.log(response)
+      this.setState({
+        siteIdOne: response.data.sites[0].id,
+        siteOne: response.data.sites[0].site,
+        siteIdTwo: response.data.sites[1].id,
+        siteTwo: response.data.sites[1].site
+      })
+    })
+================================*/
 
 
 
