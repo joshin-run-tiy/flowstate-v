@@ -179,3 +179,34 @@ body {
   width: 50%;
   opacity: 0.3;
 }
+.select-style {
+  height: 100%;
+  width: 4em;
+  overflow: hidden;
+  background: #444c38;
+  border-radius: 0;
+
+}
+.select-style select {
+    padding: 0.5em;
+    width: 130%;
+    height: 100%;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    /*background: transparent;*/
+    background-image: none;
+    -webkit-appearance: none;
+    background: #444c38;
+    color: #fff;
+    font-size: 1em;
+    align-items: center;
+}
+.select-style select:hover {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.select-style select:focus {
+    outline: none;
+}
