@@ -73,7 +73,7 @@ body {
   /*background-color: #4cbb17;*/
   background-color: #708238;
 }
-#nav {
+.nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -85,11 +85,10 @@ body {
   list-style: none;
   list-style-type: none;
   overflow: hidden;
-  background-color: #333;
   font-family: Arial;
 }
 .nav-item1 {
-  
+
 }
 .graph {
   display: flex;
