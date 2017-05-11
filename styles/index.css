@@ -84,6 +84,12 @@ body {
   background-color: #444c38;
   list-style: none;
   list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+.nav-item1 {
+  
 }
 .graph {
   display: flex;
