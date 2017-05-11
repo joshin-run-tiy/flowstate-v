@@ -34,35 +34,72 @@ body {
   opacity: 0.8;
 }
 .banner-title {
-    font-size: 5em;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 6em;
+  text-align: center;
+  font-family: arial;
+  font-weight: bolder;
+  color: green;
 }
-#nav {
-  /*position: fixed;
-  top: auto;*/
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  height: 7vh;
-  width: 100vw;
-  background-color: #fff;
-  opacity: 0.8;
-  list-style: none;
-  list-style-type: none;
+.tag-line {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+  text-align: center;
+  font-family: arial;
+  color: seagreen;
 }
 .main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  background-color: #fff;
+  /*justify-content: center;*/
+  align-items: stretch;
+  background-color: lightblue;
   height: 80vh;
   width: 100vw;
+  /*opacity: 0.9;*/
+}
+.aside {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+  background-color: seagreen;
+  /*opacity: 0.6;*/
+}
+#nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+  background-color: lightblue;
+  /*opacity: 0.8;*/
+  list-style: none;
+  list-style-type: none;
+  /*opacity: 0.6;*/
+}
+.graph {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: lightgreen;
+  height: 100%;
+  width: 80%;
+  /*opacity: 0.6;*/
+}
+.flow-data {
+  margin: 0;
+  padding: 0;
 }
 #footer {
   display: flex;
@@ -76,13 +113,24 @@ body {
   background-color: #fff;
   opacity: 0.8;
 }
-.flow-data {
-  margin: 0;
-  padding: 0;
+.g-box {
+  background-color: white;
+  border: 1px solid blue;
+  height: 50%;
+  width: 50%;
+  opacity: 0.3;
 }
-.aside {
-  align-self: flex-start;
-  width: 25vw;
-  height: 100%;
-  background-color: yellow;
+.n-box {
+  background-color: white;
+  border: 1px solid blue;
+  height: 50%;
+  width: 50%;
+  opacity: 0.3;
+}
+.a-box {
+  background-color: white;
+  border: 1px solid blue;
+  height: 50%;
+  width: 50%;
+  opacity: 0.3;
 }
