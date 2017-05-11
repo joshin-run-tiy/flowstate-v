@@ -1,0 +1,22 @@
+body
+  margin: 0
+  padding: 0
+
+#banner
+  height: 100vh
+  width: 100vw
+  background: url(../images/grass2.jpg)
+
+.banner-container
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+    align-content: stretch
+    align-items: center
+
+h1
+    background-color: #fff
+    height: 300px
+    width: 600px
+    opacity: 0.8
