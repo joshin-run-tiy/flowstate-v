@@ -6,7 +6,7 @@ window.onload = function Maxicom () {
 
 
   $.ajax({url: url}).done(function(mData) {
-    console.log('The returned mData:', mData)
+    console.log('url returned mData:', mData)
   })
 }
 /*===========================================================*/
@@ -14,13 +14,15 @@ window.onload = function Maxicom () {
 /*===========================================================*/
 
 // set the dimensions of the canvas
+
 var margin = {top: 20, right: 20, bottom: 70, left: 40},
     width = 600 - (margin.left - 15) - margin.right,
     height = 300 - margin.top - margin.bottom
-
+console.log(width,height);
 // set the ranges
-var x = d3.scale.ordinal().rangeRoundBands([0, width], .08)
+var x = d3.scale.ordinal().rangeRoundBands([0, width], .05)
 var y = d3.scale.linear().range([height, 0])
+console.log('xy', x,y);
 
 // define the axis
 var xAxis = d3.svg.axis()
@@ -31,32 +33,38 @@ var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left")
     .ticks(10)
-
+console.log('axis', xAxis,yAxis);
 // add the SVG element
-var svg = d3.select("svg"),
+var svg = d3.select('.svg-container').append('svg')
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")")
-
+console.log('svg', svg);
 // load the data
-d3.json("./flow.json", function(error, data) {
+d3.json(url, function(error, data) {
   if (error) {
   } else {
   }
 
+console.log('data', data);
   data = data.flow[0].report_data;
+  console.log('data2', data);
 
   data.forEach(function(d) {
     d.value = +d.value;
     d.timestamp = new Date(d.timestamp)
     d.timestamp = (d.timestamp.getMinutes() + ":00")
     d.timestamp = d.timestamp;
+    console.log('gallons', d.value);
+    console.log('minutes', d.timestamp);
   })
+
 
   x.domain(data.map(function(d) { return d.timestamp }))
   y.domain([0, d3.max(data, function(d) { return d.value })])
+
 
   // add axis
   svg.append("g")

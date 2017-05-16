@@ -1,9 +1,9 @@
 .bar{
-  fill: lightgreen;
+  fill: steelblue;
 }
 
 .bar:hover{
-  fill: lightblue;
+  fill: skyblue;
 }
 
 .axis {
@@ -15,4 +15,8 @@
   fill: none;
   stroke: #000;
   shape-rendering: crispEdges;
+}
+
+svg {
+  background-color: #98fb98;
 }
