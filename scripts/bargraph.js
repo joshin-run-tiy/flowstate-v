@@ -16,11 +16,11 @@ window.onload = function Maxicom () {
 // set the dimensions of the canvas
 
 var margin = {top: 20, right: 20, bottom: 70, left: 40},
-    width = 800 - (margin.left - 15) - margin.right,
+    width = 900 - (margin.left - 15) - margin.right,
     height = 475 - margin.top - margin.bottom
 console.log(width,height);
 // set the ranges
-var x = d3.scale.ordinal().rangeRoundBands([0, width], .05)
+var x = d3.scale.ordinal().rangeRoundBands([15, width], .09)
 var y = d3.scale.linear().range([height, 0])
 console.log('xy', x,y);
 

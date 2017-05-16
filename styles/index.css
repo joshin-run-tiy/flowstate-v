@@ -184,7 +184,9 @@ body {
   overflow: hidden;
   background: #444c38;
   border-radius: 0;
-
+  border-right: 1px solid #606F4B;
+  /*border-left: 1px solid darkgreen;
+  border-right: 1px solid darkgreen;*/
 }
 .select-style select {
     padding: 0.5em;
@@ -201,6 +203,7 @@ body {
     font-size: 1em;
     align-items: center;
 }
+
 .select-style select:hover {
   background-color: lightgreen;
   color: darkgreen;
