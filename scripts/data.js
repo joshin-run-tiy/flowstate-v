@@ -1,7 +1,8 @@
+/*===========================================================*/
+// DATA RETRIEVAL METHOD WHERE 'data' REPRESENTS THE OBJECT
+/*===========================================================*/
 window.onload = function Maxicom () {
 
-  // const flowIs = 'flow/'
-  // const url = `http://ckjacobson.com/maxicom/sites.json`;
   const url = `http://ckjacobson.com/maxicom/reports/flow/1.json`;
 
   $.ajax({
@@ -9,6 +10,11 @@ window.onload = function Maxicom () {
   }).done(function(data) {
     console.log('The returned object is:', data)
   })
+
+/*===========================================================*/
+// NEXT
+/*===========================================================*/
+
   // let targetedData = {
   //   dataArrays:data.data.flow[0].report_data,
   //   flow: data.data.flow,
