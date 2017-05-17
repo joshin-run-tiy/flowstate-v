@@ -43,7 +43,8 @@ var svg = d3.select('.svg-container').append('svg')
           "translate(" + margin.left + "," + margin.top + ")")
 console.log('svg', svg);
 // load the data
-d3.json("./flow.json", function(error, data) {
+d3.json("./may1st-12am.json", function(error, data) {
+// d3.json("./flow.json", function(error, data) {
 // d3.json(url, function(error, data) {
   if (error) {
   } else {
