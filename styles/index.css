@@ -58,7 +58,7 @@ body {
   /*justify-content: center;*/
   align-items: stretch;
   /*background-color: lightblue;*/
-  height: 70vh;
+  height: 100vh;
   width: 100vw;
 }
 .aside {
@@ -77,7 +77,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: 8%;
   width: 100%;
@@ -142,7 +142,7 @@ body {
   align-items: flex-start;
   background-color: #98fb98;
   height: 100%;
-  width: 80%;
+  width: 100%;
 }
 .flow-data {
   margin: 0;
@@ -213,5 +213,5 @@ body {
 }
 
 select.classic {
-  
+
 }

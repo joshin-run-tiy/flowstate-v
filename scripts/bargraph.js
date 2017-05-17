@@ -20,7 +20,7 @@ var margin = {top: 20, right: 20, bottom: 70, left: 40},
     height = 475 - margin.top - margin.bottom
 console.log(width,height);
 // set the ranges
-var x = d3.scale.ordinal().rangeRoundBands([15, width], .09)
+var x = d3.scale.ordinal().rangeRoundBands([5, width], .08)
 var y = d3.scale.linear().range([height, 0])
 console.log('xy', x,y);
 
@@ -43,10 +43,13 @@ var svg = d3.select('.svg-container').append('svg')
           "translate(" + margin.left + "," + margin.top + ")")
 console.log('svg', svg);
 // load the data
-d3.json(url, function(error, data) {
+d3.json("./flow.json", function(error, data) {
+// d3.json(url, function(error, data) {
   if (error) {
   } else {
   }
+
+
 
 console.log('data', data);
   data = data.flow[0].report_data;
@@ -73,18 +76,23 @@ console.log('data', data);
       .call(xAxis)
     .selectAll("text")
       .style("text-anchor", "end")
+      .attr("font-weight", "bold")
+      .attr("font-size", "1.1em")
       .attr("dx", "-.8em")
-      .attr("dy", "-.55em")
+      .attr("dy", ".50em")
       .attr("transform", "rotate(-45)")
 
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis)
+      // .attr("font-weight", "bold")
     .append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 5)
-      .attr("dy", ".71em")
+      .attr("dy", "-2.95em")
       .style("text-anchor", "end")
+      .attr("font-weight", "bold")
+      .attr("font-size", "1.2em")
       .text("Gallons")
 
 
