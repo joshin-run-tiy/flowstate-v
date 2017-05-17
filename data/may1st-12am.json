@@ -1,0 +1,310 @@
+{
+    "flow": [
+        {
+            "id": 1,
+            "report": "Flow",
+            "report_data": [
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:00:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:01:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:02:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:03:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:04:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:05:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:06:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "30",
+                    "timestamp": "2016-04-01T21:07:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "30",
+                    "timestamp": "2016-04-01T21:08:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "30",
+                    "timestamp": "2016-04-01T21:09:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "30",
+                    "timestamp": "2016-04-01T21:10:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "30",
+                    "timestamp": "2016-04-01T21:11:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "30",
+                    "timestamp": "2016-04-01T21:12:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "45",
+                    "timestamp": "2016-04-01T21:13:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "45",
+                    "timestamp": "2016-04-01T21:14:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "45",
+                    "timestamp": "2016-04-01T21:15:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "45",
+                    "timestamp": "2016-04-01T21:16:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:17:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:18:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:19:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:20:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:21:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:22:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:23:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:24:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:25:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:26:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:27:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:28:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:29:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:30:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:31:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:32:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:33:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:34:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:35:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "20",
+                    "timestamp": "2016-04-01T21:36:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "30",
+                    "timestamp": "2016-04-01T21:37:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "30",
+                    "timestamp": "2016-04-01T21:38:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "30",
+                    "timestamp": "2016-04-01T21:39:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "30",
+                    "timestamp": "2016-04-01T21:40:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "30",
+                    "timestamp": "2016-04-01T21:41:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "30",
+                    "timestamp": "2016-04-01T21:42:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:43:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:44:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:45:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:46:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:47:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:48:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:49:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:50:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:51:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:52:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:53:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:54:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:55:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "75",
+                    "timestamp": "2016-04-01T21:56:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "60",
+                    "timestamp": "2016-04-01T21:57:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "60",
+                    "timestamp": "2016-04-01T21:58:00"
+                },
+                {
+                    "report_id": 1,
+                    "value": "60",
+                    "timestamp": "2016-04-01T21:59:00"
+                }
+            ]
+        }
+    ]
+}

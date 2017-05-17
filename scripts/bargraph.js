@@ -43,7 +43,54 @@ var svg = d3.select('.svg-container').append('svg')
           "translate(" + margin.left + "," + margin.top + ")")
 console.log('svg', svg);
 // load the data
-d3.json("./may1st-12am.json", function(error, data) {
+
+
+
+
+
+
+
+
+// let time = document.querySelector('#time')
+// time.querySelector(.onclick = () => {
+//   store.dispatch({
+//     type: 'SHIRT@ADD',
+//     color: newShirtDiv.querySelector('#color').value,
+//     size: newShirtDiv.querySelector('#size').value,
+//     motto: newShirtDiv.querySelector('#motto').value
+//   })
+// }
+
+// var site = document.querySelector('#site')
+// var date = document.querySelector('#date')
+// var time = document.querySelector('#time')
+//
+// let dataSet = function dataSetSelect() {
+//
+//
+//     // while (modelList.options.length) {
+//     //     modelList.remove(0);
+//     // }
+//
+//     // var cars = carsAndModels[selCar];
+//     // if (cars) {
+//     //     var i;
+//     //     for (i = 0; i < cars.length; i++) {
+//     //         var car = new Option(cars[i], i);
+//     //         modelList.options.add(car);
+//
+//     return data;
+//         }
+//     }
+// }
+
+
+
+
+
+
+d3.json("./data/may1st-1am.json", function(error, data) {
+// d3.json("./data/may1st-12am.json", function(error, data) {
 // d3.json("./flow.json", function(error, data) {
 // d3.json(url, function(error, data) {
   if (error) {

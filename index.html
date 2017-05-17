@@ -19,16 +19,19 @@
         <!-- <p><span class="banner-title">FlowState</span><br><span class="tag-line">visualizing flow data</span></p> -->
       </div>
     </div>
+    <div class="intro">
+      <p>Test</p>
+    </div>
     <div class="main">
       <!-- <div class="aside"></div> -->
       <div class="graph">
         <div class="nav">
           <select class="test">
-            <option value="Site1">Site 1</option>
+            <option id="site" value="site1">Site 1</option>
           </select>
           <!-- <div class="select-style"> -->
-          <select class="test">
-            <option value="12am">May 1st</option>
+          <select id="date" class="test">
+            <option value="may1">May 1st</option>
             <!-- <option value="12am">May 2nd</option>
             <option value="12am">May 3rd</option>
             <option value="12am">May 4th</option>
@@ -40,10 +43,10 @@
             <option value="12am">May 10th</option> -->
           </select>
           <!-- <div class="select-style"> -->
-          <select class="test">
+          <select id="time" class="test">
             <option value="12am">12am</option>
-            <!-- <option value="1am">1am</option>
-            <option value="2am">2am</option>
+            <option value="1am">1am</option>
+            <!-- <option value="2am">2am</option>
             <option value="3am">3am</option>
             <option value="3am">4am</option>
             <option value="3am">5am</option>
@@ -54,6 +57,28 @@
             <option value="3am">10am</option>
             <option value="3am">11am</option> -->
           </select>
+
+
+          <!-- <form action="myservlet.do" method="POST">
+            <select name="myselect" id="myselect" onchange="this.form.submit()">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+            </select>
+          </form>
+
+
+          <form method="POST" action="index.php?action=contact_agent">
+            <select name="agent_id" required>
+              <option value="1">Agent Homer</option>
+              <option value="2">Agent Lenny</option>
+              <option value="3">Agent Carl</option>
+            </select>
+            <input type="submit" value="Submit">
+          </form> -->
+
+
         </div>
         <div class="svg-container">
           <p>Flow Data</p>

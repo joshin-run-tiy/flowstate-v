@@ -45,6 +45,17 @@ body {
   font-family: arial;
   color: seagreen;
 }
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100vw;
+  background-color: #fff;
+}
 .main {
   display: flex;
   flex-direction: row;
