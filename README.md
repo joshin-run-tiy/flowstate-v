@@ -1,5 +1,5 @@
 # Note
 
-Due to the technology used in this project, GitHub Pages may or may not represent it's current state based on the code base.
+Note to visitors: Cross-browser testing has not yet been implemented within the development process. Pull up the GitHub Pages link in Firefox or Safari for the time being.
 
-- Josh
+### Link: [FlowState](https://joshin-run.github.io/flowstate-v/)

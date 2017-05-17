@@ -1,0 +1,83 @@
+@media screen and ( max-width: 3000px ) {
+  .title-container {
+    /*background-color: red;*/
+    height:50vh;
+    width: 80vw;
+  }
+  .banner-title {
+    font-size: 12em;
+  }
+  .tag-line {
+    font-size: 5em;
+  }
+}
+
+@media screen and ( max-width: 1420px ) {
+  .title-container {
+    /*background-color: orange;*/
+    height:40vh;
+    width: 70vw;
+  }
+  .banner-title {
+    font-size: 7em;
+  }
+  .tag-line {
+    font-size: 4em;
+  }
+}
+
+@media( max-width: 1160px ) {
+  .title-container {
+    /*background-color: yellow;*/
+    height:30vh;
+    width: 60vw;
+  }
+  .banner-title {
+    font-size: 5em;
+  }
+  .tag-line {
+    font-size: 3em;
+  }
+}
+
+@media( max-width: 880px ) {
+  .title-container {
+    /*background-color: purple;*/
+    height:22vh;
+    width: 60vw;
+  }
+  .banner-title {
+    font-size: 3.5em;
+  }
+  .tag-line {
+    font-size: 2em;
+  }
+}
+
+@media( max-width: 550px ) {
+  .title-container {
+    /*background-color: blue;*/
+    height:15vh;
+    width: 60vw;
+  }
+  .banner-title {
+    font-size: 2.75em;
+  }
+  .tag-line {
+    font-size: 1.25em;
+  }
+}
+
+@media( max-width: 380px ) {
+  .title-container {
+    /*background-color: brown;*/
+    height:10vh;
+    width: 60vw;
+  }
+  .banner-title {
+    font-size: 2em;
+  }
+  .tag-line {
+    font-size: 1em;
+  }
+}
