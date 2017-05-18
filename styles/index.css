@@ -65,6 +65,9 @@ body {
   font-family: 'arial';
   opacity: 0.9;
 }
+.intro p {
+  text-align: justify;
+}
 h1 {
   color: #fff;
   font-family: 'arial';
