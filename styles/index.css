@@ -51,17 +51,28 @@ body {
 /*.tag-line span {
   color: #75B2C1;
 }*/
-/*.intro {
+.intro {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   align-items: center;
-  height: 30vh;
+  height: 40vh;
   width: 100vw;
-  background-color: #fff;
-}*/
+  background-color: #3994C0;
+  color: #fff;
+  font-family: 'arial';
+  opacity: 0.9;
+}
+h1 {
+  color: #fff;
+  font-family: 'arial';
+}
+.intro-div {
+  padding: 1em 6em 1em 6em;
+  margin: 0;
+}
 .main {
   display: flex;
   flex-direction: row;
