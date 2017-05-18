@@ -1,9 +1,9 @@
 .bar{
-  fill: teal;
+  fill: #66AF57;
 }
 
 .bar:hover{
-  fill: skyblue;
+  fill: #228C14;
 }
 
 .axis {
@@ -18,14 +18,13 @@
 }
 
 svg {
-  background-color: #98fb98;
+  background-color: #ECF3DF;
 }
 
 .svg-container p {
   font-size: 2.255em;
   font-weight: bold;
-  color: forestgreen;
-  color: slategray;
+  color: #2E7E36;
   margin: 0.5em 0.5em 0.10em 0.5em;
   padding: 0;
   font-family: 'arial';
