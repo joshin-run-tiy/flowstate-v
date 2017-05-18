@@ -170,6 +170,17 @@ body {
   width: 100vw;
   background-color: #3994C0;
 }
+#footer p {
+    color: white;
+    font-family: 'arial';
+    font-size: 0.75em;
+}
+#logo {
+  height: 20%;
+  margin: 2.5em;
+  border-radius: 3px;
+}
+
 /*.g-box {
   background-color: white;
   border: 1px solid olive;

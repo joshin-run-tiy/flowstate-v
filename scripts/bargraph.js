@@ -1,14 +1,28 @@
 /*===========================================================*/
 // DATA RETRIEVAL METHOD WHERE 'data' REPRESENTS THE OBJECT
 /*===========================================================*/
-const url = `http://ckjacobson.com/maxicom/reports/flow/1.json`
-window.onload = function Maxicom () {
+
+function urlData() {
+  var site = document.querySelector('#site').value;
+  var date = document.querySelector('#date').value;
+  var time = document.querySelector('#time').value;
+  console.log('time', time);
+  if (site == 'site1' && date == 'may1' && time == '12am' ) {
+    url = './data/may1st-12am.json';
+  } if (site == 'site1' && date == 'may1' && time == '1am' ) {
+    url = './data/may1st-1am.json';
+  }
 
 
-  $.ajax({url: url}).done(function(mData) {
-    console.log('url returned mData:', mData)
-  })
-}
+
+// let url = `http://ckjacobson.com/maxicom/reports/flow/1.json`
+// window.onload = function Maxicom () {
+//
+//
+//   $.ajax({url: url}).done(function(mData) {
+//     console.log('url returned mData:', mData)
+//   })
+// }
 /*===========================================================*/
 // END
 /*===========================================================*/
@@ -61,9 +75,7 @@ console.log('svg', svg);
 //   })
 // }
 
-// var site = document.querySelector('#site')
-// var date = document.querySelector('#date')
-// var time = document.querySelector('#time')
+
 //
 // let dataSet = function dataSetSelect() {
 //
@@ -89,7 +101,9 @@ console.log('svg', svg);
 
 
 
-d3.json("./data/may1st-1am.json", function(error, data) {
+
+
+d3.json(url, function(error, data) {
 // d3.json("./data/may1st-12am.json", function(error, data) {
 // d3.json("./flow.json", function(error, data) {
 // d3.json(url, function(error, data) {
@@ -99,7 +113,8 @@ d3.json("./data/may1st-1am.json", function(error, data) {
 
 
 
-console.log('data', data);
+
+  console.log('data', data);
   data = data.flow[0].report_data;
   console.log('data2', data);
 
@@ -154,3 +169,4 @@ console.log('data', data);
       .attr("y", function(d) { return y(d.value) })
       .attr("height", function(d) { return height - y(d.value) })
     })
+}
