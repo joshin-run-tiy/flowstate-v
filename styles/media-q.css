@@ -1,22 +1,22 @@
 @media screen and ( max-width: 3000px ) {
   .title-container {
     /*background-color: red;*/
-    height:50vh;
+    height:60vh;
     width: 100vw;
     /*width: 80vw;*/
   }
   .banner-title {
-    font-size: 12em;
+    font-size: 15em;
   }
   .tag-line {
-    font-size: 5em;
+    font-size: 7.5em;
   }
 }
 
-@media screen and ( max-width: 1420px ) {
+@media screen and ( max-width: 1620px ) {
   .title-container {
     /*background-color: orange;*/
-    height:55vh;
+    height:50vh;
     width: 100vw;
     /*width: 70vw;*/
   }
@@ -24,7 +24,7 @@
     font-size: 10em;
   }
   .tag-line {
-    font-size: 7em;
+    font-size: 6.25em;
   }
 }
 
