@@ -16,7 +16,7 @@
 @media screen and ( max-width: 1420px ) {
   .title-container {
     /*background-color: orange;*/
-    height:40vh;
+    height:55vh;
     width: 100vw;
     /*width: 70vw;*/
   }
@@ -31,7 +31,7 @@
 @media( max-width: 1160px ) {
   .title-container {
     /*background-color: yellow;*/
-    height:30vh;
+    height:40vh;
     width: 100vw;
     /*width: 60vw;*/
   }
@@ -46,7 +46,7 @@
 @media( max-width: 880px ) {
   .title-container {
     /*background-color: purple;*/
-    height:22vh;
+    height:32vh;
     width: 100vw;
     /*width: 60vw;*/
   }
@@ -61,7 +61,22 @@
 @media( max-width: 550px ) {
   .title-container {
     /*background-color: blue;*/
-    height:15vh;
+    height:30vh;
+    width: 100vw;
+    /*width: 60vw;*/
+  }
+  .banner-title {
+    font-size: 4.5em;
+  }
+  .tag-line {
+    font-size: 2.25em;
+  }
+}
+
+@media( max-width: 380px ) {
+  .title-container {
+    /*background-color: brown;*/
+    height:20vh;
     width: 100vw;
     /*width: 60vw;*/
   }
@@ -69,21 +84,6 @@
     font-size: 4em;
   }
   .tag-line {
-    font-size: 1.25em;
-  }
-}
-
-@media( max-width: 380px ) {
-  .title-container {
-    /*background-color: brown;*/
-    height:10vh;
-    width: 100vw;
-    /*width: 60vw;*/
-  }
-  .banner-title {
-    font-size: 3em;
-  }
-  .tag-line {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
