@@ -2,6 +2,15 @@
 // DATA RETRIEVAL METHOD WHERE 'data' REPRESENTS THE OBJECT
 /*===========================================================*/
 
+let url = `http://ckjacobson.com/maxicom/reports/flow/1.json`
+function remote () {
+  console.log('let url + ...flow/1.json', url)
+  $.ajax({url: url}).done(function(data) {
+    console.log('data in $.ajax', data);
+    return data;
+  })
+}
+
 function urlData() {
 
   var site = document.querySelector('#site').value;
@@ -9,27 +18,17 @@ function urlData() {
   var time = document.querySelector('#time').value;
   console.log('time', time);
   if (site == 'site1' && date == 'may1' && time == '12am' ) {
-    url = './data/may1st-12am.json';
+    var url = './data/may1st-12am.json';
+    console.log('url of 12am:', url);
   } if (site == 'site1' && date == 'may1' && time == '1am' ) {
-    url = './data/may1st-1am.json';
+    var url = './data/may1st-1am.json';
+    console.log('url of 1am:', url);
+  } if (site == 'site1' && date == 'may1' && time == 'remote' ) {
+    var url = remote();
+    console.log('log from remote()', url);
   }
 
-
-
-// let url = `http://ckjacobson.com/maxicom/reports/flow/1.json`
-// window.onload = function Maxicom () {
-//
-//
-//   $.ajax({url: url}).done(function(mData) {
-//     console.log('url returned mData:', mData)
-//   })
-// }
-/*===========================================================*/
-// END
-/*===========================================================*/
-
 // set the dimensions of the canvas
-
 var margin = {top: 20, right: 20, bottom: 70, left: 40},
     width = 975 - (margin.left - 15) - margin.right,
     height = 475 - margin.top - margin.bottom
@@ -57,52 +56,6 @@ var svg = d3.select('.svg-container').append('svg')
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")")
 console.log('svg', svg);
-// load the data
-
-
-
-
-
-
-
-
-// let time = document.querySelector('#time')
-// time.querySelector(.onclick = () => {
-//   store.dispatch({
-//     type: 'SHIRT@ADD',
-//     color: newShirtDiv.querySelector('#color').value,
-//     size: newShirtDiv.querySelector('#size').value,
-//     motto: newShirtDiv.querySelector('#motto').value
-//   })
-// }
-
-
-//
-// let dataSet = function dataSetSelect() {
-//
-//
-//     // while (modelList.options.length) {
-//     //     modelList.remove(0);
-//     // }
-//
-//     // var cars = carsAndModels[selCar];
-//     // if (cars) {
-//     //     var i;
-//     //     for (i = 0; i < cars.length; i++) {
-//     //         var car = new Option(cars[i], i);
-//     //         modelList.options.add(car);
-//
-//     return data;
-//         }
-//     }
-// }
-
-
-
-
-
-
-
 
 d3.json(url, function(error, data) {
 // d3.json("./data/may1st-12am.json", function(error, data) {
@@ -111,9 +64,6 @@ d3.json(url, function(error, data) {
   if (error) {
   } else {
   }
-
-
-
 
   console.log('data', data);
   data = data.flow[0].report_data;
