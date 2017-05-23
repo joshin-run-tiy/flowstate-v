@@ -16,14 +16,14 @@ function urlData() {
 
 
 
-// let url = `http://ckjacobson.com/maxicom/reports/flow/1.json`
-// window.onload = function Maxicom () {
-//
-//
-//   $.ajax({url: url}).done(function(mData) {
-//     console.log('url returned mData:', mData)
-//   })
-// }
+let url = `http://ckjacobson.com/maxicom/reports/flow/1.json`
+window.onload = function Maxicom () {
+
+
+  $.ajax({url: url}).done(function(mData) {
+    console.log('url returned mData:', mData)
+  })
+}
 /*===========================================================*/
 // END
 /*===========================================================*/
