@@ -3,7 +3,6 @@
 /*===========================================================*/
 
 function urlData() {
-
   var site = document.querySelector('#site').value;
   var date = document.querySelector('#date').value;
   var time = document.querySelector('#time').value;
@@ -14,16 +13,18 @@ function urlData() {
     url = './data/may1st-1am.json';
   }
 
+  //notes: variable changing......
+  //event handler needed........1. select new json file....cause cascade of updating data now map over...need giant iife eventually...make function modular...webpack and react might be good to go with...
 
 
-let url = `http://ckjacobson.com/maxicom/reports/flow/1.json`
-window.onload = function Maxicom () {
-
-
-  $.ajax({url: url}).done(function(mData) {
-    console.log('url returned mData:', mData)
-  })
-}
+  // let url = `http://ckjacobson.com/maxicom/reports/flow/1.json`
+  // window.onload = function Maxicom () {
+  //
+  //
+  //   $.ajax({url: url}).done(function(mData) {
+  //     console.log('url returned mData:', mData)
+  //   })
+  // }
 /*===========================================================*/
 // END
 /*===========================================================*/

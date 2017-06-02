@@ -1,0 +1,25 @@
+{
+  "name": "flowstate-v",
+  "version": "1.0.0",
+  "description": "Note to visitors: Cross-browser testing has not yet been implemented within the development process. Pull up the GitHub Pages link in Firefox or Safari for the time being.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "d3": "^4.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./scripts/script1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshin-run/flowstate-v.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshin-run/flowstate-v/issues"
+  },
+  "homepage": "https://github.com/joshin-run/flowstate-v#readme"
+}
