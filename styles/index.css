@@ -16,6 +16,7 @@ body {
   height: 100vh;
   width: 100vw;
 }
+/*migrated*/
 .title-container {
   display: flex;
   flex-direction: row;
@@ -48,9 +49,11 @@ body {
   font-family: arial;
   color: #75B2C1;
 }
+/*end migration*/
 /*.tag-line span {
   color: #75B2C1;
 }*/
+/*migrated*/
 .intro {
   display: flex;
   flex-direction: row;
@@ -76,6 +79,7 @@ h1 {
   padding: 1em 6em 1em 6em;
   margin: 0;
 }
+/*end*/
 .main {
   display: flex;
   flex-direction: row;
